@@ -3,132 +3,142 @@
 *::after {
     padding: 0;
     margin: 0;
-    border: border-box;
 }
 body {
     background-color: rgb(255, 0, 0);
+    font-family: "PT Sans";
 }
 html,
 body {
     height: 100%;
 }
-.porten__svg {
-    width: 100px;
-}
-.wrapper {
-    font-family: 'PT Sans';
-}
-.header {
-    position: fixed;
+
+.page-top {
     width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 50;
+    height: 44px;
+    background-color: black;
 }
-.header:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: #0F0F0F;
-    z-index: 2;
-}
-.container {
-    max-width: 1080px;
+.container-page-top {
+    display: flex;
+    width: 1080px;
+    height: 44px;
     margin: 0 auto;
-    padding: 0 10px;
-}
-.header__body {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
     align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
 }
-.header__burger {
-    display: none;
-}
-.header__logo {
-    z-index: 3;
-}
-.header__list {
-    display: flex;
-    position: relative;
-    z-index: 2;
-}
-.header__list li {
+.data-list {
     list-style: none;
-    margin-left: 20px;
+    display: flex;
 }
-.header__link {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 18px;
+.phone:hover,
+.phone:focus {
+    text-decoration: underline;
+}
+.phone-link {
+    color: #969696;
     text-decoration: none;
+    display: flex;
+}
+.phone-svg {
+    margin-right: 10px;
 }
 
-@media (max-width: 767px) {
-    .header__body {
-        height: 50px;
-    }
-    .twitter {
-        width: 40px;
-    }
-    .header__burger {
-        display: block;
-        width: 30px;
-        height: 20px;
-        position: relative;
-        z-index: 3;
-    }
-    .header__burger span {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        background-color: #fff;
-        left: 0;
-        top: 9px;
-    }
-    .header__burger:before,
-    .header__burger:after {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        background-color: #fff;
-        left: 0;
-    }
-    .header__burger:before {
-        top: 0;
-    }
-    .header__burger:after {
-        bottom: 0;
-    }
-    .menu.active {
-        
-    }
-    
-    .menu li {
-        list-style-type: none;
-    }
-    
-    .header__menu {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #3a3a3a;
-        padding: 70px 10px 20px 10px;
-    }
-    
-    .header__list {
-        display: block;
-    }
-    .header__list li {
-        margin: 0 0 20px 0;
-    }
+.text-list {
+    color: #969696;
+}
+.text-list::before {
+    content: "|";
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.login-reg-link {
+    display: flex;
+}
+.login-reg-link {
+    color: #969696;
+    text-decoration: none;
+}
+.login-reg-svg {
+    margin-right: 10px;
+}
+.login-reg-link:hover,
+.login-reg-link:focus {
+    text-decoration: underline;
+}
+.page-navigation {
+    width: 100%;
+    height: 80px;
+    background: #0f0f0f;
+    display: flex;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+    width: 1080px;
+    height: 80px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.porten{
+    fill: white;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+.porten:hover {
+    fill: #969696;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-right: 61px;
+}
+.nav {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #0f0f0f;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+.nav:hover {
+    background: #1f1f1f;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+.nav-text {
+    color: #969696;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
+}
+.nav-text:hover {
+    color: #ffffff;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+.bx-cart{
+    fill: white;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    margin-left: 20px;
+}
+.bx-cart:hover {
+    fill: #969696;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
 }

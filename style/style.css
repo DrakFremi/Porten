@@ -84,7 +84,7 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.porten{
+.porten {
     fill: white;
     transition-duration: 0.5s;
     transition-delay: 0.1s;
@@ -131,7 +131,7 @@ body {
     transition-duration: 0.5s;
     transition-delay: 0.1s;
 }
-.bx-cart{
+.bx-cart {
     fill: white;
     transition-duration: 0.5s;
     transition-delay: 0.1s;

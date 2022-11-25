@@ -20,7 +20,7 @@ body {
 }
 .container-page-top {
     display: flex;
-    width: 1080px;
+    max-width: 1180px;
     height: 44px;
     margin: 0 auto;
     align-items: center;
@@ -33,9 +33,10 @@ body {
 .data-list {
     list-style: none;
     display: flex;
+    padding-left: 16px;
 }
-.phone:hover,
-.phone:focus {
+.phone-link:hover,
+.phone-link:focus {
     text-decoration: underline;
 }
 .phone-link {
@@ -57,10 +58,9 @@ body {
 }
 .login-reg-link {
     display: flex;
-}
-.login-reg-link {
     color: #969696;
     text-decoration: none;
+    padding-right: 16px;
 }
 .login-reg-svg {
     margin-right: 10px;
@@ -74,7 +74,6 @@ body {
     height: 80px;
     background: #0f0f0f;
     display: flex;
-    align-items: center;
 }
 .navigation {
     display: flex;
@@ -82,17 +81,13 @@ body {
     height: 80px;
     margin: 0 auto;
     align-items: center;
-    justify-content: space-between;
 }
 .porten {
     fill: white;
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
+    padding-left: 16px;
 }
 .porten:hover {
     fill: #969696;
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
 }
 .nav-list {
     list-style: none;
@@ -103,43 +98,29 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    text-transform: uppercase;
     margin-right: 61px;
+    margin-left: auto;
 }
 .nav {
-    font-family: 'PT Sans';
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background: #0f0f0f;
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
 }
 .nav:hover {
     background: #1f1f1f;
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
 }
 .nav-text {
     color: #969696;
     text-decoration: none;
-    transition-duration: 0.2s;
-    transition-delay: 0.1s;
 }
 .nav-text:hover {
     color: #ffffff;
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
 }
 .bx-cart {
     fill: white;
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
-    margin-left: 20px;
+    margin-right: 16px;
 }
 .bx-cart:hover {
     fill: #969696;
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
 }

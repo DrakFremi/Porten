@@ -114,9 +114,6 @@ body {
     color: #969696;
     text-decoration: none;
 }
-.nav-text:hover {
-    color: #ffffff;
-}
 .bx-cart {
     fill: white;
     margin-right: 16px;

@@ -61,7 +61,7 @@ body {
     padding: 10px 30px;
     height: 60px;
     width: 60px;
-    color: rgb(72, 255, 0);
+    color: rgb(255, 255, 255);
     font-family: "Avanti", "Arial", sans-serif;
     cursor: pointer;
     will-change: width;
@@ -79,8 +79,9 @@ body {
     right: 0;
     bottom: 0;
     overflow: hidden;
-    background-color: #5b1704;
+    background-color: #0f0f0f;
     border-radius: 30px;
+    border: solid #ffffff 2px;
 }
 i {
     position: absolute;

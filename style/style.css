@@ -34,7 +34,6 @@ img {
     height: auto;
 }
 
-=======
 *,
 *::before,
 *::after {
@@ -135,11 +134,13 @@ i {
     font-size: 25px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
+}
 .page-top {
     width: 100%;
     height: 44px;
     background-color: black;
 }
+
 .container-page-top {
     display: flex;
     max-width: 1180px;
@@ -247,7 +248,7 @@ i {
     width: 60px;
     height: 60px;
     margin-left: auto;
-
+}
 
 .search__input {
     z-index: 1;
